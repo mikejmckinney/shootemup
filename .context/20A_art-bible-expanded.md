@@ -126,9 +126,9 @@ HUD baseline layout suggestion:
 ---
 
 ## Acceptance Checklist (Quick)
-✅ No texture noise  
-✅ Background subdued  
-✅ Player silhouette pops  
-✅ Telegraphs unmistakable  
-✅ UI readable at a glance  
-✅ Effects don’t hide bullets  
+✅ No texture noise
+✅ Background subdued
+✅ Player silhouette pops
+✅ Telegraphs unmistakable
+✅ UI readable at a glance
+✅ Effects don’t hide bullets
