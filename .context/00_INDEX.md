@@ -3,9 +3,9 @@
 This folder contains the authoritative context for the project.
 
 Read order:
-1) 10_game-direction.md
-2) 20_art-direction.md
-3) 21_visual-keywords-whitelist.md
+1) 10_game-direction.md (see also 10A_game-direction-expanded.md)
+2) 20_art-direction.md (see also 20A_art-bible-expanded.md)
+3) 21_visual-keywords-whitelist.md (see also 21A_visual-keywords-expanded.md)
 4) 22_visual-prompt-template.md
 5) 30_ui-principles.md
 6) 40_gameplay-systems.md
