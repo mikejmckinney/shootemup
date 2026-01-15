@@ -32,10 +32,11 @@ Modern arcade sci-fi aesthetic:
 ├── .context/                     # 📋 Authoritative project documentation
 │   ├── 00_INDEX.md               # Context pack index (read order)
 │   ├── 10_game-direction.md      # Core game design direction
+│   ├── 10A_game-direction-expanded.md  # Expanded details
 │   ├── 20_art-direction.md       # Visual style guidelines
 │   ├── 30_ui-principles.md       # UI/HUD design rules
 │   ├── 40_gameplay-systems.md    # Combat and weapon systems
-│   └── ...                       # Additional context documents
+│   └── ...                       # See 00_INDEX.md for full list
 │
 ├── AI_REPO_GUIDE.md              # AI agent reference guide
 ├── AGENTS.md                     # Root agent instructions
