@@ -1,0 +1,110 @@
+# Art Generation Manifest for Shoot 'Em Up
+# Generated from manifest.json for use with generate_images_openai.py
+
+global:
+  model: "gpt-image-1"
+  size: "1024x1024"
+  quality: "high"
+  output_format: "png"
+  global_negative: "pixel art, retro style, texture noise, grit, film grain, realistic, painterly, blurry edges"
+
+images:
+  - filename: "01_keyart_title.png"
+    prompt: "Key art illustration for modern arcade shooter game. HD 2D vector-style illustration, clean geometric shapes, flat color surfaces with subtle gradients, smooth edges, modern arcade sci-fi aesthetic, premium confident presentation. Top-down perspective. Angular arrow-like player ship with cyan/blue identity, centered and dynamic, firing bright projectiles. Multiple enemy silhouettes in red/orange receding into deep navy background. Controlled neon glow effects. Clear readable silhouettes. Balanced negative space in upper portion for logo. High contrast between player, enemies, and dark background. Strong focal point on player ship. Premium mobile/PC arcade feel."
+    negative_prompt: "busy background, fog, smoke, cluttered composition, low contrast, muddy colors, text, logos, watermarks"
+    size: "1536x1024"
+
+  - filename: "02_keyart_logo_lockup.png"
+    prompt: "Banner key art for modern arcade shooter. HD 2D vector-style illustration, clean geometric shapes, flat color surfaces with subtle gradients, smooth edges, modern arcade sci-fi aesthetic. Top-down view. Sharp angular player ship with cyan glow on left side, projectile streams flowing right. Enemy wave approaching from right with red/orange identity. Deep navy to black gradient background. Minimal background detail. Strong separation between gameplay elements. Clean geometric placeholder rectangle in upper right for logo. Controlled glow effects. Readable at a glance. Premium confident presentation."
+    negative_prompt: "busy starfield, fog, smoke, text, actual logos, watermarks, crowded composition"
+    size: "1536x1024"
+
+  - filename: "03_gameplay_core_combat.png"
+    prompt: "Gameplay screenshot of modern arcade shooter in action. HD 2D vector-style illustration, clean geometric shapes, flat color surfaces with subtle gradients, smooth edges. Top-down perspective. Player ship (angular cyan/blue) center-bottom firing spread projectiles upward. Multiple enemy types: small fodder enemies, ranged enemies with asymmetric cannons, one elite with larger silhouette. Enemy projectiles (red/orange rounded bolts) visible. XP shards (gold/yellow) scattered. Dark navy background with minimal detail. Minimalist sci-fi HUD: HP bar top-left, score top-right, weapon icons bottom-left, ability cooldown bottom-right. Floating panel UI style. Strong contrast and separation. Readable at a glance."
+    negative_prompt: "busy background, fog, smoke, screen shake blur, motion blur, cluttered UI, text-heavy UI"
+    size: "1024x1024"
+
+  - filename: "04_gameplay_boss_telegraph.png"
+    prompt: "Boss battle screenshot of modern arcade shooter. HD 2D vector-style illustration, clean geometric shapes, flat color surfaces with subtle gradients, smooth edges. Top-down view. Large graphic boss form with red/orange identity in upper half, clear readable appendages, negative space for readability. Angular player ship (cyan/blue) in lower portion. Bright telegraph indicators: arc-shaped warning zones, wedge attack patterns at 50-60% opacity, clearer than actual projectiles. Boss HP bar at top center with visible phase markers. Dark subdued background. Minimalist floating HUD panels in corners. Controlled glow on telegraphs. Unmistakable danger zones. Premium modern arcade aesthetic."
+    negative_prompt: "busy background, fog, smoke, obscured telegraphs, cluttered effects, particle spam, small boss, unclear danger zones"
+    size: "1024x1024"
+
+  - filename: "05_gameplay_arena_survival.png"
+    prompt: "Arena survival gameplay screenshot of modern arcade shooter. HD 2D vector-style illustration, clean geometric shapes, flat color surfaces with subtle gradients, smooth edges. Top-down perspective. Enclosed arena space with subtle boundary. Player ship (angular cyan/blue) in center, surrounded by converging enemy waves. Mix of fodder enemies (small simple shapes), ranged enemies, and one elite (larger silhouette). Multiple projectile streams. XP shards scattered. Dark navy background. Minimalist HUD: HP top-left, prominent timer top-right showing survival countdown, wave indicator icon, weapon slots bottom-left. Floating panel UI. High contrast, readable at a glance. Escalating intensity feel."
+    negative_prompt: "busy background, fog, smoke, cluttered, obscured player, static composition"
+    size: "1024x1024"
+
+  - filename: "06_gameplay_hazard_room.png"
+    prompt: "Hazard room gameplay screenshot of modern arcade shooter. HD 2D vector-style illustration, clean geometric shapes, flat color surfaces with subtle gradients, smooth edges. Top-down view. Environmental hazard encounter with acid green danger zones and purple gravity shift indicators. Player ship (angular cyan/blue) navigating hazard boundaries. Enemies (red/orange) also affected by hazards. Clear boundary shapes for hazard areas (circles, geometric zones). Dark background with hazard-themed accent. Minimalist HUD with hazard warning icon. Clean separation between environmental threats and enemy threats. Readable at a glance. Modern arcade aesthetic."
+    negative_prompt: "fog, smoke, unclear hazard boundaries, busy background, overwhelming effects"
+    size: "1024x1024"
+
+  - filename: "07_ui_levelup_choices.png"
+    prompt: "Level-up upgrade selection UI mockup for modern arcade shooter. HD 2D vector-style illustration, clean geometric shapes, flat color surfaces with subtle gradients, smooth edges. Three floating upgrade panels arranged horizontally, center screen. Each panel: clean geometric icon (weapon or passive symbol), minimal label text placeholder, subtle glow on hover state. Dimmed gameplay background visible. Player ship silhouette faintly visible below. One primary action button. Icon-first communication. Geometric sans typography feel. Consistent corner radius and stroke width. Generous spacing. Dark background with bright UI elements. Premium confident presentation. Minimalist sci-fi aesthetic."
+    negative_prompt: "cluttered UI, text-heavy, decorative frames, small buttons, busy background"
+    size: "1024x1024"
+
+  - filename: "08_ui_hud_full_layout.png"
+    prompt: "Full HUD layout mockup for modern arcade shooter. HD 2D vector-style illustration, clean geometric shapes, flat color surfaces with subtle gradients, smooth edges. Complete UI overlay on dimmed gameplay background. Top-left: HP bar with shield indicator, status icons. Top-right: score counter, timer, objective icon. Bottom-left: weapon slots with cooldown indicators. Bottom-right: dash ability icon, active ability, consumable slots. Top-center: boss HP bar with phase markers (optional element shown). All elements as floating panels. Icon-first design. Large legible numbers. Minimalist sci-fi HUD style. Consistent corner radius. Grid-aligned layout. Dark background, bright UI. Readable at a glance."
+    negative_prompt: "cluttered UI, text-heavy, decorative borders, small elements, inconsistent styling"
+    size: "1024x1024"
+
+  - filename: "09_ui_pause_menu.png"
+    prompt: "Pause menu UI mockup for modern arcade shooter. HD 2D vector-style illustration, clean geometric shapes, flat color surfaces with subtle gradients, smooth edges. Central floating panel with rounded corners. Resume button as large primary action with highlight state. Secondary buttons: Options, Exit stacked below. Blurred dimmed gameplay visible in background. Minimalist sci-fi panel style. Icon paired with each option. Geometric sans typography placeholder. Large touch-friendly buttons. One primary action prominent. Clear hover/press state indication. Dark background, bright UI elements. Premium confident presentation."
+    negative_prompt: "cluttered menu, many nested options, decorative frames, small buttons, text-heavy"
+    size: "1024x1024"
+
+  - filename: "10_ui_ship_select.png"
+    prompt: "Ship selection UI mockup for modern arcade shooter. HD 2D vector-style illustration, clean geometric shapes, flat color surfaces with subtle gradients, smooth edges. Four ship selection cards arranged horizontally. Each card: ship silhouette with distinct shape (angular, bulky, sleek, asymmetric variants), trait icon below, minimal stat indicators. Selected ship card enlarged with cyan highlight border. Large Start button as primary action. Dark navy background. Floating panel cards. Icon-first communication. Ships show strong silhouette differences. Premium sci-fi aesthetic. Generous spacing. Readable at a glance."
+    negative_prompt: "identical ships, cluttered UI, text-heavy descriptions, decorative frames, small elements"
+    size: "1536x1024"
+
+  - filename: "11_ui_results_screen.png"
+    prompt: "Results screen UI mockup for modern arcade shooter. HD 2D vector-style illustration, clean geometric shapes, flat color surfaces with subtle gradients, smooth edges. Large central floating panel. Final score prominently displayed at top with large numerals. Score breakdown: survival time, objectives, combo efficiency icons with values. Rewards section: currency earned (gold icon), XP gained, potential unlock indicator. Primary action button: Play Again. Secondary: Main Menu. Dark background with subtle celebration glow. Icon-first presentation. Geometric sans typography feel. Minimalist sci-fi panel. Premium confident layout."
+    negative_prompt: "cluttered breakdown, text-heavy, particle confetti spam, decorative frames, small text"
+    size: "1024x1024"
+
+  - filename: "12_ui_weekly_leaderboard.png"
+    prompt: "Weekly challenge leaderboard UI mockup for modern arcade shooter. HD 2D vector-style illustration, clean geometric shapes, flat color surfaces with subtle gradients, smooth edges. Large floating panel. Top section: Weekly Challenge title with timer countdown, standardized loadout icon indicating fair play. Leaderboard list: rank numbers, player name placeholders, scores. Top 3 positions with gold/silver/bronze accent colors. Current player row highlighted with cyan border. Global/Friends tab toggle. Score displays large legible numbers. Minimalist sci-fi panel style. Dark background. Fair competition visual emphasis. Premium confident presentation."
+    negative_prompt: "cluttered list, tiny text, decorative frames, realistic avatars, busy background"
+    size: "1024x1536"
+
+  - filename: "13_asset_player_ships.png"
+    prompt: "Player ship asset sheet for modern arcade shooter. HD 2D vector-style illustration, clean geometric shapes, flat color surfaces with subtle gradients, smooth edges. Grid of 5 distinct player ships on dark navy background. Each ship: angular forward-facing silhouette with cyan/blue identity color, unique shape variation (arrow-like, wider wings, sleek needle, bulky armored, asymmetric scout). Small trait icon below each ship. Strong silhouette differences visible. Profile recognizable at small scale. Consistent rendering style across all ships. Clean presentation. No overlapping elements. Asset sheet format."
+    negative_prompt: "identical silhouettes, cluttered, overlapping ships, busy background"
+    size: "1536x1024"
+
+  - filename: "14_asset_enemy_types.png"
+    prompt: "Enemy type asset sheet for modern arcade shooter. HD 2D vector-style illustration, clean geometric shapes, flat color surfaces with subtle gradients, smooth edges. Grid of enemy types on dark navy background with red/orange identity. Fodder: small simple shapes. Ranged: asymmetric cannon shapes. Ram: pointed aggressive silhouette. Elite: larger chunky form. Spawner: bulbous core with vents. Mini-boss preview: distinct larger shape. Each enemy uses negative space for readability. Clear role distinction through shape language. Consistent rendering style. Asset sheet format."
+    negative_prompt: "identical shapes, cluttered, overlapping, friendly looking, unclear roles"
+    size: "1536x1024"
+
+  - filename: "15_asset_projectiles_telegraphs.png"
+    prompt: "Projectile and telegraph asset sheet for modern arcade shooter. HD 2D vector-style illustration, clean geometric shapes, flat color surfaces with subtle gradients, smooth edges. Dark navy background. Projectile section: beam (thin straight line with endpoint), bolt (rounded capsule with trail), spread (small triangles/chevrons), homing (teardrop with curve trail), AoE boundary (circle/cone/arc). Telegraph section: outline warning shapes, wedge patterns, arc indicators at 50% opacity. Player projectiles in cyan. Enemy projectiles in red/orange. Telegraphs brighter than projectiles. Each type clearly labeled with icon. Asset sheet format."
+    negative_prompt: "identical projectiles, unclear telegraphs, cluttered, overlapping elements"
+    size: "1536x1024"
+
+  - filename: "16_asset_ui_components.png"
+    prompt: "UI component asset sheet for modern arcade shooter. HD 2D vector-style illustration, clean geometric shapes, flat color surfaces with subtle gradients, smooth edges. Dark navy background. UI kit layout: floating panels (various sizes), buttons (normal/hover/pressed states), icon set (weapon types, abilities, status effects, rewards), progress bars (HP, shield, cooldown), indicators (score counter frame, timer frame). Consistent corner radius. Consistent stroke weight. Minimalist sci-fi style. Cyan accent for player elements. Gold for rewards. Red for warnings. Component library format. Premium clean presentation."
+    negative_prompt: "inconsistent styling, decorative frames, cluttered, text-heavy"
+    size: "1536x1024"
+
+  - filename: "17_asset_pickups_vfx.png"
+    prompt: "Pickup and VFX asset sheet for modern arcade shooter. HD 2D vector-style illustration, clean geometric shapes, flat color surfaces with subtle gradients, smooth edges. Dark navy background. Pickup section: XP shards (small geometric fragments in gold/yellow), currency icon, temporary buff icons, rare synergy catalyst (high visibility glow). VFX section: explosion burst shapes (short-lived graphic bursts), shield hit ripple (hex arc flash), pickup collection pulse ring, damage number indicator style. Controlled glow effects. Minimal particle indication. Asset sheet format. Clean graphic presentation."
+    negative_prompt: "particle spam, smoke, fog, cluttered effects, overwhelming VFX"
+    size: "1536x1024"
+
+  - filename: "18_antirepeat_branching_routes.png"
+    prompt: "Branching world map screen for modern arcade shooter anti-repetition system. HD 2D vector-style illustration, clean geometric shapes, flat color surfaces with subtle gradients, smooth edges. Stage select map view showing multiple branching paths. Node-based layout with clear route options. Each node: encounter type icon (scroll stage, arena, hunt, hazard indicators). Risk/reward branch: harder path shows danger icon with higher reward indicator, easier path shows standard rewards. Current player position highlighted in cyan. Completed nodes dimmed. Upcoming nodes bright. Dark space background. Minimalist floating panel for route info. Clean readable at a glance. Modern arcade aesthetic."
+    negative_prompt: "linear single path, cluttered nodes, realistic terrain, busy background, fog"
+    size: "1024x1024"
+
+  - filename: "19_antirepeat_run_modifiers.png"
+    prompt: "Run modifier selection screen for modern arcade shooter anti-repetition system. HD 2D vector-style illustration, clean geometric shapes, flat color surfaces with subtle gradients, smooth edges. Pre-run modifier selection UI. Four modifier cards displayed: each shows unique rule-change icon (example: double enemies icon, faster projectiles icon, bonus XP icon, limited healing icon). Active selected modifiers have cyan border glow. Risk/reward indicators on each. Modifier description as minimal placeholder text. Dark background. Large Start Run button as primary action. Floating panel style. Icon-first communication. Run variety emphasis. Modern arcade aesthetic."
+    negative_prompt: "cluttered options, text-heavy descriptions, decorative frames, busy background"
+    size: "1024x1024"
+
+  - filename: "20_antirepeat_boss_variants.png"
+    prompt: "Boss variant comparison for modern arcade shooter anti-repetition system. HD 2D vector-style illustration, clean geometric shapes, flat color surfaces with subtle gradients, smooth edges. Side-by-side boss encounter comparison. Same boss base silhouette (large graphic form, red/orange identity) shown twice. Left variant: beam sweep telegraph pattern (arc indicator). Right variant: radial burst telegraph pattern (circle indicators). Variant label/icon differentiating each. Same readable appendages, different attack patterns. Dark background. Clean separation. Demonstrates pattern variety while maintaining silhouette consistency. Telegraph clarity emphasized. Modern arcade aesthetic."
+    negative_prompt: "completely different boss shapes, cluttered telegraphs, unclear patterns, busy background"
+    size: "1536x1024"
