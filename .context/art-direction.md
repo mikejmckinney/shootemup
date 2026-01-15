@@ -1,3 +1,15 @@
+# Art Direction — Reference Alias
+
+This file is a non-authoritative alias preserved for backward compatibility.
+
+The **authoritative** art-direction document is:
+
+- `.context/20_art-direction.md`
+
+Please update and reference that file for all current and future work.
+
+---
+
 # Art Direction — Modern Arcade Shooter
 
 ## Visual Goal
