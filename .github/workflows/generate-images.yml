@@ -1,0 +1,43 @@
+name: Generate Images
+
+on:
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install openai pyyaml
+
+      - name: Validate OPENAI_API_KEY is present
+        shell: bash
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          if [ -z "$OPENAI_API_KEY" ]; then
+            echo "OPENAI_API_KEY is empty in this workflow context."
+            exit 1
+          fi
+          echo "OPENAI_API_KEY is set (length: ${#OPENAI_API_KEY})"
+
+      - name: Generate images
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python scripts/generate_images_openai.py
+
+      - name: Upload renders as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: renders
+          path: art/renders
