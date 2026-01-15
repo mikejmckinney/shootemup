@@ -1,3 +1,13 @@
+# Game Direction — Non-authoritative Copy
+
+> **Important:** This file is a **convenience / alternate-format copy** of the authoritative design document at **`.context/10_game-direction.md`**.
+>
+> - Treat **`10_game-direction.md`** as the **single source of truth** for game direction.
+> - **Do not** update this file independently; instead, make changes in `10_game-direction.md` and then sync or regenerate this copy if it is still needed.
+> - If you are unsure which file to edit, **edit `10_game-direction.md` only**.
+
+---
+
 # Game Direction — Chosen Primary Direction
 
 ## Project Overview

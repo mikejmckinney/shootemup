@@ -8,7 +8,7 @@
 - flat color surfaces
 - subtle gradients
 - modern arcade aesthetic
-- premium indie look
+- premium mobile/PC arcade feel
 
 ## Composition
 - strong focal point

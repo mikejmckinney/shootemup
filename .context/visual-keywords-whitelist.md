@@ -1,3 +1,13 @@
+# Visual Keywords Whitelist — Non-authoritative Copy
+
+> **Important:** This file is a **convenience / alternate-format copy** of the authoritative document at **`.context/21_visual-keywords-whitelist.md`**.
+>
+> - Treat **`21_visual-keywords-whitelist.md`** as the **single source of truth**.
+> - **Do not** update this file independently; instead, make changes in `21_visual-keywords-whitelist.md` and then sync or regenerate this copy if needed.
+> - If you are unsure which file to edit, **edit `21_visual-keywords-whitelist.md` only**.
+
+---
+
 # Visual Keywords Whitelist
 
 Use these terms and concepts when generating visuals for this project.
